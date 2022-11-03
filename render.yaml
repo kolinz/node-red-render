@@ -3,7 +3,7 @@ services:
   name: node-red
   env: docker
   region: singapore
-  branch: master
+  branch: main
   autoDeploy: false
   healthCheckPath: /
   envVars:
