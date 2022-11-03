@@ -1,0 +1,11 @@
+services:
+- type: web
+  name: node-red
+  env: docker
+  region: singapore
+  branch: master
+  autoDeploy: false
+  healthCheckPath: /
+  envVars:
+  - key: PORT
+    value: 1880
